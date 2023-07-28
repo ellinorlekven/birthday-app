@@ -44,11 +44,11 @@ st.set_page_config(layout='wide', initial_sidebar_state='auto')
 st.write('# My birthday app')
 st.expander('Descriptions')
 with st.expander('Why do you need a birthday app?'):
-    st.write('This is an application that is made for calculating the collective age of a group. '
-              'The motivation behind the app is to have more occations to celebrate life together '
-              'and not only the individual birthday parties. I hope this app will give you an '
-              'increased amount of days to celebrate whenever you or your friends and family '
-              'feel like it.'
+    st.write('Introducing the Birthday App - your key to even more celebrations '
+             'with friends and family! It calculates the collective age of your '
+             'group, creating extra reasons to cherish life together. I hope this '
+             'app will bring you joy and let the celebrations begin!'
+             '\n Add the names and birthdays in the sidebar to start calculate'
               )
 
 # with open('style.css', encoding='utf-8') as f:
